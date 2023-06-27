@@ -9,9 +9,13 @@ Both Linux and Windows build with Meson.
 The Windows gstreamer installer did not include rtponviftimestamp, so I used gstreamer version 1.22.0 built with cerbero.
 
 On Linux run in VS Code in this order:
+
 ・(Linux) test-onvif-server
+
 ・(Linux) test-onvif-client
 
 On Windows run in VS Code in this order:
+
 ・(Windows) test-onvif-server
+
 ・(Windows) test-onvif-client
