@@ -18,6 +18,7 @@ gstrtsp_dep = dependency('gstreamer-rtsp-1.0', version : gst_req,
   fallback : ['gst-plugins-good', 'rtsp_dep'])
 gstrtsp_server_dep = dependency('gstreamer-rtsp-server-1.0', version : gst_req,
   fallback : ['gstreamer', 'gst_rtsp_server_dep'])
+# pango_dep = dependency('pango')
 
 foreach src : srcs
   executable(src, '@0@.c'.format(src),
@@ -27,7 +28,8 @@ foreach src : srcs
       glib_dep, 
       gst_dep, 
       gstrtsp_dep, 
-      gstrtsp_server_dep
+      gstrtsp_server_dep,
+      # pango_dep
       ],
     install: false)
 endforeach
