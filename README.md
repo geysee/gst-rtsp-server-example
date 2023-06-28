@@ -6,7 +6,10 @@ I have slightly modified the source code to run on Windows. (see git history)
 
 Both Linux and Windows build with Meson.
 
-The Windows gstreamer installer did not include rtponviftimestamp, so I used gstreamer version 1.22.0 built with cerbero.
+~~The Windows gstreamer installer did not include rtponviftimestamp, so I used gstreamer version 1.22.0 built with cerbero.~~
+
+The Windows gstreamer installer ver.1.22.4 contains rtponviftimestamp.
+We can reproduce using this, too.
 
 On Linux run in VS Code in this order:
 
