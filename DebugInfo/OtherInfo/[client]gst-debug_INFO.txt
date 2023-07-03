@@ -1,0 +1,354 @@
+0:00:00.002061000 11100 000002C788A36120 INFO                GST_INIT gstmessage.c:129:_priv_gst_message_initialize: init messages
+0:00:00.003560000 11100 000002C788A36120 INFO                GST_INIT gstcontext.c:86:_priv_gst_context_initialize: init contexts
+0:00:00.004371000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:324:_priv_gst_plugin_initialize: registering 0 static plugins
+0:00:00.005227000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:232:gst_plugin_register_static: registered static plugin "staticelements"
+0:00:00.005948000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:234:gst_plugin_register_static: added static plugin "staticelements", result: 1
+0:00:00.015749000 11100 000002C788A36120 INFO            GST_REGISTRY gstregistry.c:1836:ensure_current_registry: reading registry cache: C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin
+0:00:00.033962000 11100 000002C788A36120 INFO            GST_REGISTRY gstregistrybinary.c:683:priv_gst_registry_binary_read_cache: loaded C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin in 0.016327 seconds
+0:00:00.034795000 11100 000002C788A36120 INFO            GST_REGISTRY gstregistry.c:1703:scan_and_update_registry: Validating plugins from registry cache: C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin
+0:00:00.320270000 11100 000002C788A36120 WARN      GST_PLUGIN_LOADING gstplugin.c:535:gst_plugin_register_func: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\validate\gstvalidatessim.dll" failed to initialise
+0:00:00.321648000 11100 000002C788A36120 INFO            GST_REGISTRY gstregistry.c:1795:scan_and_update_registry: Registry cache has not changed
+0:00:00.322303000 11100 000002C788A36120 INFO            GST_REGISTRY gstregistry.c:1871:ensure_current_registry: registry reading and updating done
+0:00:00.322902000 11100 000002C788A36120 INFO                GST_INIT gst.c:806:init_post: GLib runtime version: 2.74.4
+0:00:00.323591000 11100 000002C788A36120 INFO                GST_INIT gst.c:808:init_post: GLib headers version: 2.74.4
+0:00:00.324257000 11100 000002C788A36120 INFO                GST_INIT gst.c:809:init_post: initialized GStreamer successfully
+0:00:00.324882000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "pipeline"
+0:00:00.354235000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtsp.dll" loaded
+0:00:00.355751000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtspsrc"
+0:00:00.377669000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstasf.dll" loaded
+0:00:00.378993000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtspwms"
+0:00:00.387498000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrealmedia.dll" loaded
+0:00:00.388678000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtspreal"
+0:00:00.398217000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstcoreelements.dll" loaded
+0:00:00.399360000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.400533000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@000002C78A89A720> adding pad 'sink'
+0:00:00.401700000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@000002C78A89A720> adding pad 'src'
+0:00:00.409962000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtponvif.dll" loaded
+0:00:00.413433000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtponvifparse"
+0:00:00.415012000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpOnvifParse@000002C78AA94000> adding pad 'sink'
+0:00:00.416264000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpOnvifParse@000002C78AA94000> adding pad 'src'
+0:00:00.431228000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtp.dll" loaded
+0:00:00.432401000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtph264depay"
+0:00:00.433949000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRTPBaseDepayload@000002C78AADE1F0> adding pad 'sink'
+0:00:00.435165000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRTPBaseDepayload@000002C78AADE1F0> adding pad 'src'
+0:00:00.463419000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_avs
+0:00:00.464218000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_bfstm
+0:00:00.465174000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_brstm
+0:00:00.466257000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_daud
+0:00:00.467191000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_dsf
+0:00:00.468117000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_ea
+0:00:00.469111000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_4xm
+0:00:00.469924000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_gxf
+0:00:00.470855000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_idcin
+0:00:00.471736000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_iff
+0:00:00.472698000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_ipmovie
+0:00:00.473622000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_mm
+0:00:00.477077000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_mmf
+0:00:00.478014000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_nsv
+0:00:00.478735000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_nut
+0:00:00.479585000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_film_cpk
+0:00:00.480335000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_smk
+0:00:00.481082000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_sol
+0:00:00.481848000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_psxstr
+0:00:00.482751000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_vmd
+0:00:00.483656000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wc3movie
+0:00:00.484565000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wsaud
+0:00:00.485467000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_wsvqa
+0:00:00.486366000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_xwma
+0:00:00.487290000 11100 000002C788A36120 INFO            GST_TYPEFIND gsttypefind.c:72:gst_type_find_register: registering typefind function for avtype_yuv4mpegpipe
+0:00:00.489054000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstlibav.dll" loaded
+0:00:00.493442000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "avdec_h264"
+0:00:00.495076000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstVideoDecoder@000002C78AB569C0> adding pad 'sink'
+0:00:00.496027000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstVideoDecoder@000002C78AB569C0> adding pad 'src'
+0:00:00.504861000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstvideoconvertscale.dll" loaded
+0:00:00.507104000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "videoconvert"
+0:00:00.508889000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC24490> adding pad 'sink'
+0:00:00.509925000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC24490> adding pad 'src'
+0:00:00.511595000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "tee"
+0:00:00.512907000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstTee@000002C78AAF2000> adding pad 'sink'
+0:00:00.514080000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:00.515544000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@000002C78AC30B20> adding pad 'sink'
+0:00:00.516788000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@000002C78AC30B20> adding pad 'src'
+0:00:00.550562000 11100 000002C788A36120 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstopengl.dll" loaded
+0:00:00.551864000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "glupload"
+0:00:00.554030000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC40590> adding pad 'sink'
+0:00:00.555297000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC40590> adding pad 'src'
+0:00:00.556593000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "glimagesink"
+0:00:00.558073000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "glupload"
+0:00:00.559367000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC46400> adding pad 'sink'
+0:00:00.561009000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC46400> adding pad 'src'
+0:00:00.562464000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "glcolorconvert"
+0:00:00.564193000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC49B50> adding pad 'sink'
+0:00:00.565562000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC49B50> adding pad 'src'
+0:00:00.567059000 11100 000002C788A36120 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "glcolorbalance"
+0:00:00.571632000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC6BBB0> adding pad 'sink'
+0:00:00.572997000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseTransform@000002C78AC6BBB0> adding pad 'src'
+0:00:00.574617000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element gluploadelement1:src to element glcolorconvertelement0:sink
+0:00:00.575514000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad gluploadelement1:src
+0:00:00.576495000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad glcolorconvertelement0:sink
+0:00:00.577639000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: gluploadelement1 and glcolorconvertelement0 in same bin, no need for ghost pads
+0:00:00.578849000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link gluploadelement1:src and glcolorconvertelement0:sink
+0:00:00.579806000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement1:sink> pad has no peer
+0:00:00.582537000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<glcolorconvertelement0:src> pad has no peer
+0:00:00.586888000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked gluploadelement1:src and glcolorconvertelement0:sink, successful
+0:00:00.588320000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.589262000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<gluploadelement1:src> Received event on flushing pad. Discarding
+0:00:00.590686000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element glcolorconvertelement0:src to element glcolorbalance0:sink
+0:00:00.591604000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad glcolorconvertelement0:src
+0:00:00.592517000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad glcolorbalance0:sink
+0:00:00.593609000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: glcolorconvertelement0 and glcolorbalance0 in same bin, no need for ghost pads
+0:00:00.594574000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link glcolorconvertelement0:src and glcolorbalance0:sink
+0:00:00.595532000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement1:sink> pad has no peer
+0:00:00.597586000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<glcolorbalance0:src> pad has no peer
+0:00:00.598487000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked glcolorconvertelement0:src and glcolorbalance0:sink, successful
+0:00:00.601038000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.601932000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<glcolorconvertelement0:src> Received event on flushing pad. Discarding
+0:00:00.603495000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad gluploadelement1:sink
+0:00:00.604622000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link sink:proxypad0 and gluploadelement1:sink
+0:00:00.605480000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked sink:proxypad0 and gluploadelement1:sink, successful
+0:00:00.606651000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.607840000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstGLSinkBin@000002C78AAF7020> adding pad 'sink'
+0:00:00.609771000 11100 000002C788A36120 INFO       gstcontrolbinding gstcontrolbinding.c:140:gst_control_binding_constructor:<glcolorbalance0> trying to put property 'contrast' under control
+0:00:00.611263000 11100 000002C788A36120 INFO       gstcontrolbinding gstcontrolbinding.c:140:gst_control_binding_constructor:<glcolorbalance0> trying to put property 'brightness' under control
+0:00:00.612717000 11100 000002C788A36120 INFO       gstcontrolbinding gstcontrolbinding.c:140:gst_control_binding_constructor:<glcolorbalance0> trying to put property 'hue' under control
+0:00:00.614039000 11100 000002C788A36120 INFO       gstcontrolbinding gstcontrolbinding.c:140:gst_control_binding_constructor:<glcolorbalance0> trying to put property 'saturation' under control
+0:00:00.618138000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseSink@000002C78AC92250> adding pad 'sink'
+0:00:00.619096000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element glcolorbalance0:src to element sink:sink
+0:00:00.619919000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad glcolorbalance0:src
+0:00:00.621072000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad sink:sink
+0:00:00.622226000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: glcolorbalance0 and sink in same bin, no need for ghost pads
+0:00:00.623142000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link glcolorbalance0:src and sink:sink
+0:00:00.624194000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<(NULL):sink> pad has no peer
+0:00:00.626663000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked glcolorbalance0:src and sink:sink, successful
+0:00:00.627444000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.628632000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<glcolorbalance0:src> Received event on flushing pad. Discarding
+0:00:00.632430000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element queue0:(any) to element rtponvifparse0:(any)
+0:00:00.633355000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link queue0:src and rtponvifparse0:sink
+0:00:00.634534000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.635486000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtponvifparse0:src> pad has no peer
+0:00:00.636779000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: queue0 and rtponvifparse0 in same bin, no need for ghost pads
+0:00:00.637924000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link queue0:src and rtponvifparse0:sink
+0:00:00.638744000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.639498000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtponvifparse0:src> pad has no peer
+0:00:00.640574000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked queue0:src and rtponvifparse0:sink, successful
+0:00:00.641329000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.642114000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<queue0:src> Received event on flushing pad. Discarding
+0:00:00.643233000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element rtponvifparse0:(any) to element rtph264depay0:(any)
+0:00:00.644174000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link rtponvifparse0:src and rtph264depay0:sink
+0:00:00.645155000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: rtponvifparse0 and rtph264depay0 in same bin, no need for ghost pads
+0:00:00.648516000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtponvifparse0:src and rtph264depay0:sink
+0:00:00.649550000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtponvifparse0:src and rtph264depay0:sink, successful
+0:00:00.650536000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.651428000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<rtponvifparse0:src> Received event on flushing pad. Discarding
+0:00:00.652779000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element rtph264depay0:(any) to element avdec_h264-0:(any)
+0:00:00.653928000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link rtph264depay0:src and avdec_h264-0:sink
+0:00:00.654885000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<avdec_h264-0:src> pad has no peer
+0:00:00.656401000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: rtph264depay0 and avdec_h264-0 in same bin, no need for ghost pads
+0:00:00.657487000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtph264depay0:src and avdec_h264-0:sink
+0:00:00.658381000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<avdec_h264-0:src> pad has no peer
+0:00:00.659821000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtph264depay0:src and avdec_h264-0:sink, successful
+0:00:00.660700000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.664778000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<rtph264depay0:src> Received event on flushing pad. Discarding
+0:00:00.666009000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element avdec_h264-0:(any) to element videoconvert0:(any)
+0:00:00.666814000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link avdec_h264-0:src and videoconvert0:sink
+0:00:00.667986000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoconvert0:src> pad has no peer
+0:00:00.669707000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: avdec_h264-0 and videoconvert0 in same bin, no need for ghost pads
+0:00:00.670333000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link avdec_h264-0:src and videoconvert0:sink
+0:00:00.671361000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<videoconvert0:src> pad has no peer
+0:00:00.673032000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked avdec_h264-0:src and videoconvert0:sink, successful
+0:00:00.673872000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.674876000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<avdec_h264-0:src> Received event on flushing pad. Discarding
+0:00:00.676455000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element videoconvert0:(any) to element tee0:(any)
+0:00:00.680711000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link videoconvert0:src and tee0:sink
+0:00:00.682937000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: videoconvert0 and tee0 in same bin, no need for ghost pads
+0:00:00.683669000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link videoconvert0:src and tee0:sink
+0:00:00.685626000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked videoconvert0:src and tee0:sink, successful
+0:00:00.686387000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.687543000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<videoconvert0:src> Received event on flushing pad. Discarding
+0:00:00.689127000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element tee0:(any) to element queue1:(any)
+0:00:00.690300000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:00.691402000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<tee0> adding pad 'src_0'
+0:00:00.692315000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: tee0 and queue1 in same bin, no need for ghost pads
+0:00:00.696245000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link tee0:src_0 and queue1:sink
+0:00:00.698055000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:00.698760000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked tee0:src_0 and queue1:sink, successful
+0:00:00.699910000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.701060000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<tee0:src_0> Received event on flushing pad. Discarding
+0:00:00.702558000 11100 000002C788A36120 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element queue1:(any) to element glimagesinkbin0:(any)
+0:00:00.703470000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link queue1:src and glimagesinkbin0:sink
+0:00:00.705940000 11100 000002C788A36120 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: queue1 and glimagesinkbin0 in same bin, no need for ghost pads
+0:00:00.706679000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link queue1:src and glimagesinkbin0:sink
+0:00:00.709219000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked queue1:src and glimagesinkbin0:sink, successful
+0:00:00.711356000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:00.712422000 11100 000002C788A36120 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<queue1:src> Received event on flushing pad. Discarding
+Type help for the list of available commands
+0:00:00.714219000 11100 000002C788A36120 INFO               GST_EVENT gstevent.c:1394:gst_event_new_seek: creating seek rate 1.000000, format TIME, flags 3, start_type 1, start 0:00:00.000000000, stop_type 1, stop 0:02:00.000000000
+0:00:00.715129000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glimagesinkbin0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.716366000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<sink> current NULL pending VOID_PENDING, desired next READY
+0:00:00.717394000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.718266000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<sink:sink> pad peer query failed
+0:00:00.719179000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<sink> posting need context message
+0:00:00.720121000 11100 000002C788A36120 INFO               gldisplay gstgldisplay.c:415:gst_gl_display_new_with_type: Creating display with type 8(0x8)
+0:00:00.721598000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:241:gst_gl_element_propagate_display_context:<sink> posting have context (000002C78AC650C0) message with display (000002C788AE0C80)
+0:00:00.722592000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.723342000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<sink:sink> pad peer query failed
+0:00:00.726466000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<sink> posting need context message
+0:00:00.727565000 11100 000002C788A36120 INFO               glcontext gstglcontext.c:349:gst_gl_context_new: creating a context for display <gldisplay0>, user choice:(null)
+0:00:00.728499000 11100 000002C788A36120 INFO                glwindow gstglwindow.c:295:gst_gl_window_new: creating a window, user choice:(null)
+0:00:00.773883000 11100 000002C78AC60340 INFO               glcontext gstglcontext_wgl.c:402:gst_gl_context_wgl_choose_format:<glcontextwgl0> chosen config gst-gl-context-config, platform=(GstGLPlatform)GST_GL_PLATFORM_WGL, red-size=(int)8, blue-size=(int)8, green-size=(int)8, alpha-size=(int)8, depth-size=(int)24, stencil-size=(int)8, native-visual-id=(uint)5, surface-type=(GstGLConfigSurfaceType)GST_GL_CONFIG_SURFACE_TYPE_WINDOW;
+0:00:00.776092000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1322:gst_gl_context_create_thread:<glcontextwgl0> Attempting to create opengl context. user chosen api(s) (any), compiled api support (opengl opengl3) display api (opengl opengl3 gles2)
+0:00:00.805795000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1333:gst_gl_context_create_thread:<glcontextwgl0> created context
+0:00:00.807398000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1349:gst_gl_context_create_thread:<glcontextwgl0> available GL APIs: opengl3
+0:00:00.809018000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1113:_create_context_info:<glcontextwgl0> GL_VERSION: 4.0.0 - Build 10.18.10.4252
+0:00:00.810421000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1116:_create_context_info:<glcontextwgl0> GL_SHADING_LANGUAGE_VERSION: 4.00 - Build 10.18.10.4252
+0:00:00.812075000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1118:_create_context_info:<glcontextwgl0> GL_VENDOR: Intel
+0:00:00.813745000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1120:_create_context_info:<glcontextwgl0> GL_RENDERER: Intel(R) HD Graphics 4000
+0:00:00.816928000 11100 000002C78AC60340 INFO               glcontext gstgldebug.c:347:_gst_gl_debug_enable:<glcontextwgl0> Enabling GL context debugging
+0:00:00.817960000 11100 000002C78AC60340 INFO               glcontext gstglcontext.c:1172:_unlock_create_thread:<glcontextwgl0> gl thread running
+0:00:00.821408000 11100 000002C788A36120 INFO               glcontext gstglcontext.c:1079:gst_gl_context_create:<glcontextwgl0> gl thread created
+0:00:00.823086000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<sink> completed state change to READY
+0:00:00.824407000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<sink> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.825615000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'sink' changed state to 2(READY) successfully
+0:00:00.826735000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glcolorbalance0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.827996000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:160:_gst_context_query:<glcolorbalance0> found context (000002C78AC65180) in downstream query
+0:00:00.829446000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<glcolorbalance0:src> pad peer query failed
+0:00:00.830591000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.832114000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<glcolorbalance0:sink> pad peer query failed
+0:00:00.833567000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<glcolorbalance0> posting need context message
+0:00:00.837961000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<glcolorbalance0> completed state change to READY
+0:00:00.839259000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<glcolorbalance0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.840445000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'glcolorbalance0' changed state to 2(READY) successfully
+0:00:00.841748000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glcolorconvertelement0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.843062000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:160:_gst_context_query:<glcolorconvertelement0> found context (000002C78AC651E0) in downstream query
+0:00:00.844509000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<glcolorconvertelement0:src> pad peer query failed
+0:00:00.845951000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.846879000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<glcolorconvertelement0:sink> pad peer query failed
+0:00:00.848452000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<glcolorconvertelement0> posting need context message
+0:00:00.849920000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<glcolorconvertelement0> completed state change to READY
+0:00:00.853473000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<glcolorconvertelement0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.855066000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'glcolorconvertelement0' changed state to 2(READY) successfully
+0:00:00.856247000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<gluploadelement1> current NULL pending VOID_PENDING, desired next READY
+0:00:00.857550000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:160:_gst_context_query:<gluploadelement1> found context (000002C78AC65240) in downstream query
+0:00:00.858991000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement1:src> pad peer query failed
+0:00:00.860026000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:00.861156000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement1:sink> pad peer query failed
+0:00:00.862134000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<gluploadelement1> posting need context message
+0:00:00.863567000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<gluploadelement1> completed state change to READY
+0:00:00.864768000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<gluploadelement1> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.866406000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'gluploadelement1' changed state to 2(READY) successfully
+0:00:00.870886000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<glimagesinkbin0> completed state change to READY
+0:00:00.872544000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<glimagesinkbin0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.873966000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'glimagesinkbin0' changed state to 2(READY) successfully
+0:00:00.875469000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue1> current NULL pending VOID_PENDING, desired next READY
+0:00:00.876615000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue1> completed state change to READY
+0:00:00.878518000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue1> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.879905000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'queue1' changed state to 2(READY) successfully
+0:00:00.881021000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<tee0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.881782000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<tee0> completed state change to READY
+0:00:00.884444000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<tee0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.885697000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'tee0' changed state to 2(READY) successfully
+0:00:00.887052000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<videoconvert0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.888259000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<videoconvert0> completed state change to READY
+0:00:00.889537000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.890837000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 2(READY) successfully
+0:00:00.892116000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<avdec_h264-0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.893530000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<avdec_h264-0> completed state change to READY
+0:00:00.894747000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.895866000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 2(READY) successfully
+0:00:00.897135000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtph264depay0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.898400000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtph264depay0> completed state change to READY
+0:00:00.899680000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtph264depay0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.900909000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtph264depay0' changed state to 2(READY) successfully
+0:00:00.902364000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtponvifparse0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.903793000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtponvifparse0> completed state change to READY
+0:00:00.905293000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtponvifparse0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.906428000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtponvifparse0' changed state to 2(READY) successfully
+0:00:00.908013000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.909113000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue0> completed state change to READY
+0:00:00.914314000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.915567000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 2(READY) successfully
+0:00:00.917117000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<gluploadelement0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.918526000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement0:src> pad has no peer
+0:00:00.919907000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement0:src> pad peer query failed
+0:00:00.920828000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement0:sink> pad has no peer
+0:00:00.922467000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement0:sink> pad peer query failed
+0:00:00.923489000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<gluploadelement0> posting need context message
+0:00:00.924955000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement0:src> pad has no peer
+0:00:00.929457000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement0:src> pad peer query failed
+0:00:00.930581000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<gluploadelement0:sink> pad has no peer
+0:00:00.932078000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:115:pad_query:<gluploadelement0:sink> pad peer query failed
+0:00:00.932948000 11100 000002C788A36120 INFO             GST_CONTEXT gstglutils.c:177:_gst_context_query:<gluploadelement0> posting need context message
+0:00:00.934578000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<gluploadelement0> completed state change to READY
+0:00:00.936008000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<gluploadelement0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.937344000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'gluploadelement0' changed state to 2(READY) successfully
+0:00:00.938775000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtspsrc0> current NULL pending VOID_PENDING, desired next READY
+0:00:00.939933000 11100 000002C788A36120 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 000002C78AABF588 on task 000002C78AA945F0
+0:00:00.941056000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtspsrc0> completed state change to READY
+0:00:00.945130000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtspsrc0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:00.946789000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtspsrc0' changed state to 2(READY) successfully
+0:00:00.947989000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2792:gst_element_continue_state:<pipeline0> committing state from NULL to READY, pending PLAYING, next PAUSED
+0:00:00.949087000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<pipeline0> notifying about state-changed NULL to READY (PLAYING pending)
+0:00:00.950222000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2799:gst_element_continue_state:<pipeline0> continue state change READY to PAUSED, final PLAYING
+0:00:00.951452000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glimagesinkbin0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.952828000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<sink> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.953962000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2945:gst_bin_change_state_func:<glimagesinkbin0> child 'sink' is changing state asynchronously to PAUSED
+0:00:00.955310000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glcolorbalance0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.956604000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<glcolorbalance0> completed state change to PAUSED
+0:00:00.959761000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<glcolorbalance0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.961242000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'glcolorbalance0' changed state to 3(PAUSED) successfully
+0:00:00.962528000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<glcolorconvertelement0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.963811000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<glcolorconvertelement0> completed state change to PAUSED
+0:00:00.965107000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<glcolorconvertelement0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.966446000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'glcolorconvertelement0' changed state to 3(PAUSED) successfully
+0:00:00.967880000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<gluploadelement1> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.969771000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<gluploadelement1> completed state change to PAUSED
+0:00:00.971338000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<gluploadelement1> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.972578000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<glimagesinkbin0> child 'gluploadelement1' changed state to 3(PAUSED) successfully
+0:00:00.976047000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2945:gst_bin_change_state_func:<pipeline0> child 'glimagesinkbin0' is changing state asynchronously to PAUSED
+0:00:00.977201000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue1> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.978129000 11100 000002C788A36120 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 000002C78AABC9E0 on task 000002C78AA94710
+0:00:00.979109000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:6331:gst_pad_start_task:<queue1:src> created task 000002C78AA94710
+0:00:00.980477000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue1> completed state change to PAUSED
+0:00:00.981758000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue1> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.983266000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'queue1' changed state to 3(PAUSED) successfully
+0:00:00.984586000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<tee0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.985639000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<tee0> completed state change to PAUSED
+0:00:00.987028000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<tee0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.991313000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'tee0' changed state to 3(PAUSED) successfully
+0:00:00.993084000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<videoconvert0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:00.994655000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<videoconvert0> completed state change to PAUSED
+0:00:00.995942000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<videoconvert0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:00.997691000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'videoconvert0' changed state to 3(PAUSED) successfully
+0:00:00.999195000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<avdec_h264-0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.000735000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<avdec_h264-0> completed state change to PAUSED
+0:00:01.002168000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<avdec_h264-0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.003640000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'avdec_h264-0' changed state to 3(PAUSED) successfully
+0:00:01.006846000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtph264depay0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.008346000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtph264depay0> completed state change to PAUSED
+0:00:01.009878000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtph264depay0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.011466000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtph264depay0' changed state to 3(PAUSED) successfully
+0:00:01.012671000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtponvifparse0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.014068000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtponvifparse0> completed state change to PAUSED
+0:00:01.015336000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtponvifparse0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.016595000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtponvifparse0' changed state to 3(PAUSED) successfully
+0:00:01.017869000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.018798000 11100 000002C788A36120 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 000002C78AABD320 on task 000002C78AA94830
+0:00:01.021565000 11100 000002C788A36120 INFO                GST_PADS gstpad.c:6331:gst_pad_start_task:<queue0:src> created task 000002C78AA94830
+0:00:01.022942000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue0> completed state change to PAUSED
+0:00:01.024057000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.025104000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'queue0' changed state to 3(PAUSED) successfully
+0:00:01.026131000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<gluploadelement0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.027712000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<gluploadelement0> completed state change to PAUSED
+0:00:01.029415000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<gluploadelement0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.031048000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'gluploadelement0' changed state to 3(PAUSED) successfully
+0:00:01.032298000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtspsrc0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:01.033736000 11100 000002C788A36120 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtspsrc0> completed state change to PAUSED
+0:00:01.034895000 11100'g_io_module_load': 指定されたプロシージャが見つかりません。
+ 000002C788A36120 Failed to load module: C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gio\modules\gioenvironmentproxy.dll
+INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtspsrc0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:01.046753000 11100 000002C788A36120 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pipeline0> child 'rtspsrc0' changed state to 3(PAUSED) successfully
+0:00:01.048303000 11100 000002C788A36120 INFO                pipeline gstpipeline.c:534:gst_pipeline_change_state:<pipeline0> pipeline is not live
+0:00:01.059272000 11100 000002C78AC604C0 INFO                 rtspsrc gstrtspsrc.c:8236:gst_rtspsrc_retrieve_sdp:<rtspsrc0> Now using version: 1.0
+0:00:01.652522000 11100 000002C78AC604C0 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link '':stream_0 and stream_0:proxypad1
+0:00:01.653341000 11100 000002C78AC604C0 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked '':stream_0 and stream_0:proxypad1, successful
+0:00:01.654347000 11100 000002C78AC604C0 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event

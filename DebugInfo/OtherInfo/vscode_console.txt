@@ -1,0 +1,109 @@
+
+Loaded 'C:\Users\s_kam\Documents\Projects\gst-rtsp-server-example\build\test-onvif-client.exe'. Symbols loaded.
+Loaded 'C:\Windows\System32\ntdll.dll'. 
+Loaded 'C:\Windows\System32\kernel32.dll'. 
+Loaded 'C:\Windows\System32\KernelBase.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\glib-2.0-0.dll'. Symbols loaded.
+Loaded 'C:\Windows\System32\ws2_32.dll'. 
+Loaded 'C:\Windows\System32\rpcrt4.dll'. 
+Loaded 'C:\Windows\System32\user32.dll'. 
+Loaded 'C:\Windows\System32\win32u.dll'. 
+Loaded 'C:\Windows\System32\gdi32.dll'. 
+Loaded 'C:\Windows\System32\gdi32full.dll'. 
+Loaded 'C:\Windows\System32\msvcp_win.dll'. 
+Loaded 'C:\Windows\System32\ucrtbase.dll'. 
+Loaded 'C:\Windows\System32\shell32.dll'. 
+Loaded 'C:\Windows\System32\ole32.dll'. 
+Loaded 'C:\Windows\System32\combase.dll'. 
+Loaded 'C:\Windows\System32\advapi32.dll'. 
+Loaded 'C:\Windows\System32\msvcrt.dll'. 
+Loaded 'C:\Windows\System32\sechost.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstreamer-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gobject-2.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstrtsp-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\Windows\System32\vcruntime140d.dll'. 
+Loaded 'C:\Windows\System32\ucrtbased.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\pcre2-8-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\intl-8.dll'. Symbols loaded.
+Loaded 'C:\Windows\System32\vcruntime140.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gmodule-2.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\ffi-7.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstbase-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gio-2.0-0.dll'. Symbols loaded.
+Loaded 'C:\Windows\System32\shlwapi.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\z-1.dll'. Symbols loaded.
+Loaded 'C:\Windows\System32\dnsapi.dll'. 
+Loaded 'C:\Windows\System32\IPHLPAPI.DLL'. 
+Loaded 'C:\Windows\System32\imm32.dll'. 
+Loaded 'C:\Windows\System32\nsi.dll'. 
+Loaded 'C:\Windows\System32\kernel.appcore.dll'. 
+Loaded 'C:\Windows\System32\windows.storage.dll'. 
+Loaded 'C:\Windows\System32\wldp.dll'. 
+Loaded 'C:\Windows\System32\SHCore.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\validate\gstvalidatessim.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstvideo-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\cairo-2.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstvalidate-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\orc-0.4-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstcheck-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstpbutils-1.0-0.dll'. Symbols loaded.Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gsttag-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\bz2.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\libexpat-1.dll'. Module was built without symbols.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstaudio-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtsp.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstnet-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstrtp-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstsdp-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstasf.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstriff-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrealmedia.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstcoreelements.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtponvif.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtp.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstlibav.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\avfilter-8.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\avformat-59.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\avcodec-59.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\avutil-57.dll'. 
+Loaded 'C:\Windows\System32\bcrypt.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\swresample-4.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\libwinpthread-1.dll'. Module was built without symbols.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstvideoconvertscale.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstopengl.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\graphene-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\gstgl-1.0-0.dll'. Symbols loaded.
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\bin\libjpeg-8.dll'. 
+Loaded 'C:\Windows\System32\opengl32.dll'. 
+Loaded 'C:\Windows\System32\glu32.dll'. 
+Loaded 'C:\Windows\System32\uxtheme.dll'. 
+Loaded 'C:\Windows\System32\msctf.dll'. 
+Loaded 'C:\Windows\System32\oleaut32.dll'. 
+Loaded 'C:\Windows\System32\bcryptprimitives.dll'. 
+Loaded 'C:\Windows\System32\clbcatq.dll'. 
+Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. 
+Unloaded 'C:\Windows\System32\AppXDeploymentClient.dll'.
+Loaded 'C:\Windows\System32\ig7icd64.dll'. 
+Loaded 'C:\Windows\System32\igdusc64.dll'. 
+Loaded 'C:\Windows\System32\wtsapi32.dll'. 
+Loaded 'C:\Windows\System32\dwmapi.dll'. 
+Loaded 'C:\Windows\System32\version.dll'. 
+Unloaded 'C:\Windows\System32\version.dll'.
+Loaded 'C:\Windows\System32\powrprof.dll'. 
+Loaded 'C:\Windows\System32\umpdc.dll'. 
+Loaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gio\modules\gioenvironmentproxy.dll'. Symbols loaded.
+Unloaded 'C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gio\modules\gioenvironmentproxy.dll'.
+Loaded 'C:\Windows\System32\winhttp.dll'. 
+Loaded 'C:\Windows\System32\mswsock.dll'. 
+Loaded 'C:\Windows\System32\xmllite.dll'. 
+Loaded 'C:\Windows\System32\AppXDeploymentClient.dll'. 
+Loaded 'C:\Windows\System32\Windows.ApplicationModel.dll'. 
+Loaded 'C:\Windows\System32\twinapi.appcore.dll'. 
+Loaded 'C:\Windows\System32\cfgmgr32.dll'. 
+Loaded 'C:\Windows\System32\propsys.dll'. 
+Loaded 'C:\Windows\System32\profapi.dll'. 
+Loaded 'C:\Windows\System32\Windows.FileExplorer.Common.dll'. 
+Loaded 'C:\Windows\System32\iertutil.dll'. 
+Loaded 'C:\Windows\System32\mssprxy.dll'. 
+Loaded 'C:\Windows\System32\cryptbase.dll'. 
+Exception thrown at 0x00007FFC40D9A67B (gstrtsp.dll) in test-onvif-client.exe: 0xC0000005: Access violation reading location 0x0000000000000480.
+

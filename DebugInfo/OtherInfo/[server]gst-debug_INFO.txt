@@ -1,0 +1,385 @@
+0:00:00.002134000  7816 000001807352A120 INFO                GST_INIT gstmessage.c:129:_priv_gst_message_initialize: init messages
+0:00:00.003935000  7816 000001807352A120 INFO                GST_INIT gstcontext.c:86:_priv_gst_context_initialize: init contexts
+0:00:00.005016000  7816 000001807352A120 INFO      GST_PLUGIN_LOADING gstplugin.c:324:_priv_gst_plugin_initialize: registering 0 static plugins
+0:00:00.005935000  7816 000001807352A120 INFO      GST_PLUGIN_LOADING gstplugin.c:232:gst_plugin_register_static: registered static plugin "staticelements"
+0:00:00.006633000  7816 000001807352A120 INFO      GST_PLUGIN_LOADING gstplugin.c:234:gst_plugin_register_static: added static plugin "staticelements", result: 1
+0:00:00.016269000  7816 000001807352A120 INFO            GST_REGISTRY gstregistry.c:1836:ensure_current_registry: reading registry cache: C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin
+0:00:00.047498000  7816 000001807352A120 INFO            GST_REGISTRY gstregistrybinary.c:683:priv_gst_registry_binary_read_cache: loaded C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin in 0.029591 seconds
+0:00:00.048770000  7816 000001807352A120 INFO            GST_REGISTRY gstregistry.c:1703:scan_and_update_registry: Validating plugins from registry cache: C:\Users\s_kam\AppData\Local\Microsoft\Windows\INetCache\gstreamer-1.0\registry.x86_64-msvc.bin
+0:00:00.346266000  7816 000001807352A120 WARN      GST_PLUGIN_LOADING gstplugin.c:535:gst_plugin_register_func: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\validate\gstvalidatessim.dll" failed to initialise
+0:00:00.347891000  7816 000001807352A120 INFO            GST_REGISTRY gstregistry.c:1795:scan_and_update_registry: Registry cache has not changed
+0:00:00.348598000  7816 000001807352A120 INFO            GST_REGISTRY gstregistry.c:1871:ensure_current_registry: registry reading and updating done
+0:00:00.349332000  7816 000001807352A120 INFO                GST_INIT gst.c:806:init_post: GLib runtime version: 2.74.4
+0:00:00.350033000  7816 000001807352A120 INFO                GST_INIT gst.c:808:init_post: GLib headers version: 2.74.4
+0:00:00.350743000  7816 000001807352A120 INFO                GST_INIT gst.c:809:init_post: initialized GStreamer successfully
+0:00:00.351780000  7816 000001807352A120 INFO         rtspmountpoints rtsp-mount-points.c:360:gst_rtsp_mount_points_add_factory: adding media factory 000001807563A150 for path /test
+stream ready at rtsp://127.0.0.1:8554/test
+0:00:27.105637000  7816 000001807352A120 INFO              rtspclient rtsp-client.c:4694:gst_rtsp_client_set_connection: client 00000180759C7180 connected to server ip 127.0.0.1, ipv6 = 0
+0:00:27.107157000  7816 000001807352A120 INFO              rtspclient rtsp-client.c:4697:gst_rtsp_client_set_connection: added new client 00000180759C7180 ip 127.0.0.1:50086
+0:00:27.108335000  7816 000001807352A120 INFO              rtspclient rtsp-client.c:5349:gst_rtsp_client_attach: client 00000180759C7180: attaching to context 0000018075677C20
+0:00:27.108556000  7816 000001807598D980 INFO          rtspthreadpool rtsp-thread-pool.c:329:do_loop: enter mainloop of thread 00000180759C49A0
+0:00:27.111302000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:4018:handle_request: client 00000180759C7180: received a request OPTIONS rtsp://127.0.0.1:8554/test 1.0
+0:00:27.114146000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:4018:handle_request: client 00000180759C7180: received a request DESCRIBE rtsp://127.0.0.1:8554/test 1.0
+0:00:27.115022000  7816 000001807598D980 INFO         rtspmountpoints rtsp-mount-points.c:305:gst_rtsp_mount_points_match: found media factory 000001807563A150 for path /test
+0:00:27.116026000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "bin"
+0:00:27.116971000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "bin"
+0:00:27.128699000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstcoreelements.dll" loaded
+0:00:27.129661000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "filesrc"
+0:00:27.131837000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseSrc@0000018075930AE0> adding pad 'src'
+0:00:27.153164000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstisomp4.dll" loaded
+0:00:27.154108000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "qtdemux"
+0:00:27.155514000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQTDemux@00000180758F5940> adding pad 'sink'
+0:00:27.156409000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<replaybin0> adding pad 'src'
+0:00:27.157199000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element filesrc0:(any) to element qtdemux0:(any)
+0:00:27.158110000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link filesrc0:src and qtdemux0:sink
+0:00:27.159282000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: filesrc0 and qtdemux0 in same bin, no need for ghost pads
+0:00:27.160175000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link filesrc0:src and qtdemux0:sink
+0:00:27.161190000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked filesrc0:src and qtdemux0:sink, successful
+0:00:27.162113000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.163053000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<filesrc0:src> Received event on flushing pad. Discarding
+0:00:27.164045000  7816 000001807598D980 INFO                 filesrc gstfilesrc.c:237:gst_file_src_set_location: filename : C:\Users\s_kam\Documents\Projects\gst-rtsp-server-example/test_h264.mp4
+0:00:27.165228000  7816 000001807598D980 INFO                 filesrc gstfilesrc.c:238:gst_file_src_set_location: uri      : file:///C:/Users/s_kam/Documents/Projects/gst-rtsp-server-example/test_h264.mp4
+0:00:27.166344000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:27.167360000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@00000180759A5C80> adding pad 'sink'
+0:00:27.171023000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@00000180759A5C80> adding pad 'src'
+0:00:27.193378000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstvideoparsersbad.dll" loaded
+0:00:27.194340000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "h264parse"
+0:00:27.195908000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseParse@00000180759FDC40> adding pad 'sink'
+0:00:27.197131000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstBaseParse@00000180759FDC40> adding pad 'src'
+0:00:27.198556000  7816 000001807598D980 INFO               baseparse gstbaseparse.c:4060:gst_base_parse_set_pts_interpolation:<GstH264Parse@00000180759FDC40> PTS interpolation: no0:00:27.200739000  7816 000001807598D980 INFO               baseparse gstbaseparse.c:4077:gst_base_parse_set_infer_ts:<GstH264Parse@00000180759FDC40> TS inferring: no
+0:00:27.217545000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtp.dll" loaded
+0:00:27.218351000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtph264pay"
+0:00:27.219868000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRTPBasePayload@00000180758C6820> adding pad 'src'
+0:00:27.220720000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRTPBasePayload@00000180758C6820> adding pad 'sink'
+0:00:27.228690000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtponvif.dll" loaded
+0:00:27.229515000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtponviftimestamp"
+0:00:27.230964000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpOnvifTimestamp@00000180759CF020> adding pad 'sink'
+0:00:27.235406000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpOnvifTimestamp@00000180759CF020> adding pad 'src'
+0:00:27.238095000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "queue"
+0:00:27.239156000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@0000018073554DD0> adding pad 'sink'
+0:00:27.240360000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstQueue@0000018073554DD0> adding pad 'src'
+0:00:27.241576000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element queue0:(any) to element h264parse0:(any)
+0:00:27.242795000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link queue0:src and h264parse0:sink
+0:00:27.244029000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:27.245086000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<h264parse0:src> pad has no peer
+0:00:27.246250000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: queue0 and h264parse0 in same bin, no need for ghost pads
+0:00:27.251017000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link queue0:src and h264parse0:sink
+0:00:27.253128000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue0:sink> pad has no peer
+0:00:27.254971000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<h264parse0:src> pad has no peer
+0:00:27.256865000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked queue0:src and h264parse0:sink, successful
+0:00:27.257761000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.259115000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<queue0:src> Received event on flushing pad. Discarding
+0:00:27.260288000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element h264parse0:(any) to element rtph264pay0:(any)
+0:00:27.261346000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link h264parse0:src and rtph264pay0:sink
+0:00:27.262459000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtph264pay0:src> pad has no peer
+0:00:27.267842000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: h264parse0 and rtph264pay0 in same bin, no need for ghost pads
+0:00:27.269078000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link h264parse0:src and rtph264pay0:sink
+0:00:27.270261000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtph264pay0:src> pad has no peer
+0:00:27.271536000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked h264parse0:src and rtph264pay0:sink, successful
+0:00:27.272612000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.273563000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<h264parse0:src> Received event on flushing pad. Discarding
+0:00:27.274946000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element rtph264pay0:(any) to element rtponviftimestamp0:(any)
+0:00:27.276161000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link rtph264pay0:src and rtponviftimestamp0:sink
+0:00:27.277371000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtponviftimestamp0:src> pad has no peer
+0:00:27.278678000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: rtph264pay0 and rtponviftimestamp0 in same bin, no need for ghost pads
+0:00:27.282587000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtph264pay0:src and rtponviftimestamp0:sink
+0:00:27.283928000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtponviftimestamp0:src> pad has no peer
+0:00:27.285048000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtph264pay0:src and rtponviftimestamp0:sink, successful
+0:00:27.285968000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.287097000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<rtph264pay0:src> Received event on flushing pad. Discarding
+0:00:27.288106000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element rtponviftimestamp0:(any) to element queue1:(any)
+0:00:27.289005000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link rtponviftimestamp0:src and queue1:sink
+0:00:27.289902000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:27.290870000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: rtponviftimestamp0 and queue1 in same bin, no need for ghost pads0:00:27.291644000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtponviftimestamp0:src and queue1:sink
+0:00:27.292632000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:27.293656000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtponviftimestamp0:src and queue1:sink, successful
+0:00:27.294474000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.299208000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<rtponviftimestamp0:src> Received event on flushing pad. Discarding0:00:27.300544000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad queue0:sink
+0:00:27.301616000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link sink:proxypad1 and queue0:sink
+0:00:27.302533000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked sink:proxypad1 and queue0:sink, successful
+0:00:27.303575000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.304860000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<pay0> adding pad 'sink'
+0:00:27.305746000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstutils.c:1821:gst_element_link_pads_full: trying to link element replaybin0:(any) to element pay0:(any)
+0:00:27.306772000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1081:gst_pad_check_link: trying to link replaybin0:src and pay0:sink
+0:00:27.307917000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<src:proxypad0> pad has no peer
+0:00:27.308884000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:27.309761000  7816 000001807598D980 INFO                GST_PADS gstutils.c:1635:prepare_link_maybe_ghosting: replaybin0 and pay0 in same bin, no need for ghost pads
+0:00:27.310645000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link replaybin0:src and pay0:sink
+0:00:27.315207000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<src:proxypad0> pad has no peer
+0:00:27.316491000  7816 000001807598D980 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<queue1:src> pad has no peer
+0:00:27.317645000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked replaybin0:src and pay0:sink, successful
+0:00:27.318491000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.319619000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<replaybin0:src> Received event on flushing pad. Discarding
+0:00:27.320573000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad queue1:src
+0:00:27.322682000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link queue1:src and src:proxypad2
+0:00:27.323700000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked queue1:src and src:proxypad2, successful
+0:00:27.324653000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.325524000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<queue1:src> Received event on flushing pad. Discarding
+0:00:27.326442000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<pay0> adding pad 'src'
+0:00:27.329851000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element pay0
+0:00:27.331878000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:2210:gst_rtsp_media_collect_streams: found stream 0 with payloader 00000180759C8240
+0:00:27.333621000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad pay0:src
+0:00:27.334827000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [pay0]: looking up child element pay
+0:00:27.335983000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [pay0]: looking up child element pay_src
+0:00:27.337073000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link pay0:src and src_0:proxypad3
+0:00:27.337953000  7816 000001807598D980 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked pay0:src and src_0:proxypad3, successful
+0:00:27.339029000  7816 000001807598D980 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.340015000  7816 000001807598D980 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<pay0:src> Received event on flushing pad. Discarding
+0:00:27.340971000  7816 000001807598D980 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<bin0> adding pad 'src_0'
+0:00:27.341916000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element dynpay0
+0:00:27.342620000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element depay0
+0:00:27.345210000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element pay1
+0:00:27.345973000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element dynpay1
+0:00:27.346743000  7816 000001807598D980 INFO           GST_PARENTAGE gstbin.c:4386:gst_bin_get_by_name: [bin0]: looking up child element depay1
+0:00:27.347715000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "pipeline"
+0:00:27.348737000  7816 000001807598D980 INFO        rtspmediafactory rtsp-media-factory.c:1452:gst_rtsp_media_factory_construct: constructed media 0000018075920910 for url /test
+0:00:27.349934000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:3923:gst_rtsp_media_prepare: preparing media 0000018075920910
+0:00:27.350066000  7816 000001807598DD40 INFO          rtspthreadpool rtsp-thread-pool.c:329:do_loop: enter mainloop of thread 00000180759CD850
+0:00:27.358590000  7816 000001807598D980 INFO      GST_PLUGIN_LOADING gstplugin.c:987:_priv_gst_plugin_load_file_for_registry: plugin "C:\gstreamer\cerbero\build\dist\msvc_x86_64\lib\gstreamer-1.0\gstrtpmanager.dll" loaded
+0:00:27.361507000  7816 000001807598D980 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtpbin"
+0:00:27.365584000  7816 000001807598DD40 INFO              rtspstream rtsp-stream.c:3970:gst_rtsp_stream_join_bin: stream 00000180758B8650 joining bin as session 0
+0:00:27.366618000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'send_rtp_sink_0' in element "rtpbin0"
+0:00:27.367697000  7816 000001807598DD40 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtpsession"
+0:00:27.369233000  7816 000001807598DD40 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtpssrcdemux"
+0:00:27.369971000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpSsrcDemux@0000018075A21020> adding pad 'sink'
+0:00:27.370902000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpSsrcDemux@0000018075A21020> adding pad 'rtcp_sink'
+0:00:27.371961000  7816 000001807598DD40 INFO     GST_ELEMENT_FACTORY gstelementfactory.c:489:gst_element_factory_create_with_properties: creating element "rtpstorage"
+0:00:27.373174000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpStorage@00000180759CB480> adding pad 'src'
+0:00:27.374189000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<GstRtpStorage@00000180759CB480> adding pad 'sink'
+0:00:27.375422000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpssrcdemux0> completed state change to NULL
+0:00:27.378617000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpsession0> completed state change to NULL
+0:00:27.380124000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpstorage0> completed state change to NULL
+0:00:27.382020000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'send_rtp_sink' in element "rtpsession0"
+0:00:27.383622000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpsession0> adding pad 'send_rtp_sink'
+0:00:27.384520000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpsession0> adding pad 'send_rtp_src'
+0:00:27.385474000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad rtpsession0:send_rtp_src
+0:00:27.386552000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtpsession0:send_rtp_src and send_rtp_src_0:proxypad4
+0:00:27.387576000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtpsession0:send_rtp_src and send_rtp_src_0:proxypad4, successful
+0:00:27.388597000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.389618000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpbin0> adding pad 'send_rtp_src_0'
+0:00:27.390676000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link send_rtp_sink_0:proxypad5 and rtpsession0:send_rtp_sink
+0:00:27.393943000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked send_rtp_sink_0:proxypad5 and rtpsession0:send_rtp_sink, successful
+0:00:27.395186000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.396066000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpbin0> adding pad 'send_rtp_sink_0'
+0:00:27.397141000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link bin0:src_0 and rtpbin0:send_rtp_sink_0
+0:00:27.398446000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked bin0:src_0 and rtpbin0:send_rtp_sink_0, successful
+0:00:27.399438000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.400429000  7816 000001807598DD40 INFO               GST_EVENT gstpad.c:5986:gst_pad_send_event_unchecked:<pay0:src> Received event on flushing pad. Discarding
+0:00:27.401573000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad rtpbin0:send_rtp_src_0
+0:00:27.402722000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'send_rtcp_src_0' in element "rtpbin0"
+0:00:27.403742000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'send_rtcp_src' in element "rtpsession0"
+0:00:27.404612000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpsession0> adding pad 'send_rtcp_src'
+0:00:27.405697000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtpsession0:send_rtcp_src and send_rtcp_src_0:proxypad6
+0:00:27.406569000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtpsession0:send_rtcp_src and send_rtcp_src_0:proxypad6, successful
+0:00:27.410471000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.411428000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpbin0> adding pad 'send_rtcp_src_0'
+0:00:27.412524000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'recv_rtcp_sink_0' in element "rtpbin0"
+0:00:27.413678000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1014:gst_element_get_static_pad: no such pad 'recv_rtcp_sink' in element "rtpsession0"
+0:00:27.414920000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpsession0> adding pad 'recv_rtcp_sink'
+0:00:27.415742000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpsession0> adding pad 'sync_src'
+0:00:27.416581000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad rtpsession0:sync_src
+0:00:27.417615000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:1017:gst_element_get_static_pad: found pad rtpssrcdemux0:rtcp_sink
+0:00:27.418827000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link rtpsession0:sync_src and rtpssrcdemux0:rtcp_sink
+0:00:27.419921000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked rtpsession0:sync_src and rtpssrcdemux0:rtcp_sink, successful
+0:00:27.421006000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.422207000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link recv_rtcp_sink_0:proxypad7 and rtpsession0:recv_rtcp_sink
+0:00:27.423177000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked recv_rtcp_sink_0:proxypad7 and rtpsession0:recv_rtcp_sink, successful
+0:00:27.427334000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.428650000  7816 000001807598DD40 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<rtpbin0> adding pad 'recv_rtcp_sink_0'
+0:00:27.429857000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:3580:start_preroll: setting pipeline to PAUSED for media 0000018075920910
+0:00:27.430967000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:3170:set_target_state: set target state to PAUSED for media 0000018075920910
+0:00:27.432009000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:3157:set_state: set state to PAUSED for media 0000018075920910
+0:00:27.433139000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpbin0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.434205000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpstorage0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.435488000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpstorage0> completed state change to READY
+0:00:27.436534000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpstorage0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.437674000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpstorage0' changed state to 2(READY) successfully
+0:00:27.438835000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpssrcdemux0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.442516000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpssrcdemux0> completed state change to READY
+0:00:27.443735000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpssrcdemux0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.445047000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpssrcdemux0' changed state to 2(READY) successfully0:00:27.446297000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpsession0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.447628000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpsession0> completed state change to READY
+0:00:27.448808000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpsession0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.450238000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpsession0' changed state to 2(READY) successfully
+0:00:27.451461000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpbin0> completed state change to READY
+0:00:27.452544000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpbin0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.453708000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<media-pipeline> child 'rtpbin0' changed state to 2(READY) successfully
+0:00:27.454614000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<bin0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.458028000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<pay0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.459011000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue1> current NULL pending VOID_PENDING, desired next READY
+0:00:27.459786000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue1> completed state change to READY
+0:00:27.460562000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue1> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.461337000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'queue1' changed state to 2(READY) successfully
+0:00:27.462076000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtponviftimestamp0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.462982000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtponviftimestamp0> completed state change to READY
+0:00:27.464200000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtponviftimestamp0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.465270000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'rtponviftimestamp0' changed state to 2(READY) successfully
+0:00:27.466204000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtph264pay0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.467206000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtph264pay0> completed state change to READY
+0:00:27.467975000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtph264pay0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.468790000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'rtph264pay0' changed state to 2(READY) successfully
+0:00:27.469665000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<h264parse0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.470847000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<h264parse0> completed state change to READY
+0:00:27.474458000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<h264parse0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.475555000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'h264parse0' changed state to 2(READY) successfully
+0:00:27.476462000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.477317000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue0> completed state change to READY
+0:00:27.478175000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.479077000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'queue0' changed state to 2(READY) successfully
+0:00:27.479946000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<pay0> completed state change to READY
+0:00:27.480901000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<pay0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.481880000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<bin0> child 'pay0' changed state to 2(READY) successfully
+0:00:27.482754000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<replaybin0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.483634000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<qtdemux0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.484489000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<qtdemux0> completed state change to READY
+0:00:27.485356000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<qtdemux0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.486262000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<replaybin0> child 'qtdemux0' changed state to 2(READY) successfully
+0:00:27.487117000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<filesrc0> current NULL pending VOID_PENDING, desired next READY
+0:00:27.490829000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<filesrc0> completed state change to READY
+0:00:27.491998000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<filesrc0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.493202000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<replaybin0> child 'filesrc0' changed state to 2(READY) successfully
+0:00:27.494253000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<replaybin0> completed state change to READY
+0:00:27.495200000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<replaybin0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.496271000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<bin0> child 'replaybin0' changed state to 2(READY) successfully
+0:00:27.497409000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<bin0> completed state change to READY
+0:00:27.498696000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<bin0> notifying about state-changed NULL to READY (VOID_PENDING pending)
+0:00:27.499746000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<media-pipeline> child 'bin0' changed state to 2(READY) successfully
+0:00:27.500904000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2792:gst_element_continue_state:<media-pipeline> committing state from NULL to READY, pending PAUSED, next PAUSED
+0:00:27.502061000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<media-pipeline> notifying about state-changed NULL to READY (PAUSED pending)
+0:00:27.503176000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2799:gst_element_continue_state:<media-pipeline> continue state change READY to PAUSED, final PAUSED
+0:00:27.506765000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpbin0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.507725000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpstorage0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.508698000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpstorage0> completed state change to PAUSED
+0:00:27.509683000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpstorage0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.510672000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpstorage0' changed state to 3(PAUSED) successfully
+0:00:27.511664000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpssrcdemux0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.512748000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpssrcdemux0> completed state change to PAUSED
+0:00:27.513956000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpssrcdemux0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.515516000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpssrcdemux0' changed state to 3(PAUSED) successfully
+0:00:27.516849000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtpsession0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.517980000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpsession0> completed state change to PAUSED
+0:00:27.522672000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpsession0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.523847000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<rtpbin0> child 'rtpsession0' changed state to 3(PAUSED) successfully
+0:00:27.525065000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtpbin0> completed state change to PAUSED
+0:00:27.525977000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtpbin0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.526932000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<media-pipeline> child 'rtpbin0' changed state to 3(PAUSED) successfully
+0:00:27.528011000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<bin0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.529144000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<pay0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.530331000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue1> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.531504000  7816 000001807598DD40 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 00000180759D7E80 on task 00000180759CB5F0
+0:00:27.532502000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:6331:gst_pad_start_task:<queue1:src> created task 00000180759CB5F0
+0:00:27.533848000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue1> completed state change to PAUSED
+0:00:27.536547000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue1> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.537835000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'queue1' changed state to 3(PAUSED) successfully
+0:00:27.538931000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtponviftimestamp0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.540057000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtponviftimestamp0> completed state change to PAUSED
+0:00:27.541204000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtponviftimestamp0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.542383000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'rtponviftimestamp0' changed state to 3(PAUSED) successfully
+0:00:27.543312000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<rtph264pay0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.544325000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<rtph264pay0> completed state change to PAUSED
+0:00:27.545427000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<rtph264pay0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.546984000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'rtph264pay0' changed state to 3(PAUSED) successfully
+0:00:27.548819000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<h264parse0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.550092000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<h264parse0> completed state change to PAUSED
+0:00:27.553330000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<h264parse0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.554209000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'h264parse0' changed state to 3(PAUSED) successfully
+0:00:27.554953000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<queue0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.555882000  7816 000001807598DD40 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 00000180759D8570 on task 00000180759CB710
+0:00:27.556808000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:6331:gst_pad_start_task:<queue0:src> created task 00000180759CB710
+0:00:27.558036000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<queue0> completed state change to PAUSED
+0:00:27.558893000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<queue0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.560043000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<pay0> child 'queue0' changed state to 3(PAUSED) successfully
+0:00:27.561115000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<pay0> completed state change to PAUSED
+0:00:27.562290000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<pay0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.564371000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<bin0> child 'pay0' changed state to 3(PAUSED) successfully
+0:00:27.566076000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<replaybin0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.569283000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<qtdemux0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.570653000  7816 000001807598DD40 INFO                 filesrc gstfilesrc.c:465:gst_file_src_start:<filesrc0> opening file C:\Users\s_kam\Documents\Projects\gst-rtsp-server-example/test_h264.mp4
+0:00:27.582151000  7816 000001807598DD40 WARN                 basesrc gstbasesrc.c:3693:gst_base_src_start_complete:<filesrc0> pad not activated yet
+0:00:27.584073000  7816 000001807598DD40 INFO                 filesrc gstfilesrc.c:465:gst_file_src_start:<filesrc0> opening file C:\Users\s_kam\Documents\Projects\gst-rtsp-server-example/test_h264.mp4
+0:00:27.585330000  7816 000001807598DD40 INFO                    task gsttask.c:516:gst_task_set_lock: setting stream lock 00000180759D9A40 on task 00000180759CB830
+0:00:27.586263000  7816 000001807598DD40 INFO                GST_PADS gstpad.c:6331:gst_pad_start_task:<qtdemux0:sink> created task 00000180759CB830
+0:00:27.587829000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<qtdemux0> completed state change to PAUSED
+0:00:27.588611000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<qtdemux0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.588896000  7816 0000018075A1E8C0 WARN                 qtdemux qtdemux_types.c:265:qtdemux_type_get: unknown QuickTime node type tmcd
+0:00:27.591169000  7816 0000018075A1E8C0 WARN                 qtdemux qtdemux_types.c:265:qtdemux_type_get: unknown QuickTime node type tmcd
+0:00:27.589946000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<replaybin0> child 'qtdemux0' changed state to 3(PAUSED) successfully
+0:00:27.592893000  7816 0000018075A1E8C0 WARN                 qtdemux qtdemux_types.c:265:qtdemux_type_get: unknown QuickTime node type tmcd
+0:00:27.594022000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2484:gst_bin_element_set_state:<filesrc0> current READY pending VOID_PENDING, desired next PAUSED
+0:00:27.594885000  7816 0000018075A1E8C0 INFO                 qtdemux qtdemux.c:14114:qtdemux_parse_tree:<qtdemux0> timescale: 3000
+0:00:27.595863000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<filesrc0> completed state change to PAUSED
+0:00:27.597053000  7816 0000018075A1E8C0 INFO                 qtdemux qtdemux.c:14115:qtdemux_parse_tree:<qtdemux0> duration: 12000
+0:00:27.600971000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<filesrc0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.602311000  7816 0000018075A1E8C0 WARN                 qtdemux qtdemux.c:3245:qtdemux_parse_trex:<qtdemux0> failed to find fragment defaults for stream 1
+0:00:27.603340000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<replaybin0> child 'filesrc0' changed state to 3(PAUSED) successfully
+0:00:27.604557000  7816 0000018075A1E8C0 INFO                 qtdemux qtdemux.c:12447:qtdemux_parse_trak:<qtdemux0> type avc1 caps video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)3, profile=(string)high, codec_data=(buffer)0164001effe1001d6764001eacd940a031fbc05a8300835280000003008000001e478b16cb01000568ebecb22c
+0:00:27.605412000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<replaybin0> completed state change to PAUSED
+0:00:27.606486000  7816 0000018075A1E8C0 WARN                 qtdemux qtdemux.c:3245:qtdemux_parse_trex:<qtdemux0> failed to find fragment defaults for stream 2
+0:00:27.607454000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<replaybin0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.608351000  7816 0000018075A1E8C0 INFO                 qtdemux qtdemux.c:13476:qtdemux_parse_trak:<qtdemux0> unknown subtype tmcd
+0:00:27.609428000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<bin0> child 'replaybin0' changed state to 3(PAUSED) successfully
+0:00:27.610552000  7816 0000018075A1E8C0 INFO          GST_SCHEDULING gstpad.c:5060:gst_pad_get_range_unchecked:<filesrc0:src> getrange failed, flow: eos
+0:00:27.611552000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<bin0> completed state change to PAUSED
+0:00:27.612488000  7816 0000018075A1E8C0 INFO          GST_SCHEDULING gstpad.c:5275:gst_pad_pull_range:<qtdemux0:sink> pullrange failed, flow: eos
+0:00:27.613652000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<bin0> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.618140000  7816 0000018075A1E8C0 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)3, profile=(string)high, codec_data=(buffer)0164001effe1001d6764001eacd940a031fbc05a8300835280000003008000001e478b16cb01000568ebecb22c, width=(int)640, height=(int)380, framerate=(fraction)30/1, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:5:4
+0:00:27.619101000  7816 000001807598DD40 INFO              GST_STATES gstbin.c:2939:gst_bin_change_state_func:<media-pipeline> child 'bin0' changed state to 3(PAUSED) successfully
+0:00:27.620355000  7816 0000018075A1E8C0 INFO        GST_ELEMENT_PADS gstelement.c:759:gst_element_add_pad:<qtdemux0> adding pad 'video_0'
+0:00:27.621409000  7816 000001807598DD40 INFO                pipeline gstpipeline.c:534:gst_pipeline_change_state:<media-pipeline> pipeline is not live
+0:00:27.622508000  7816 0000018075A1E8C0 INFO                GST_PADS gstpad.c:2388:gst_pad_link_prepare: trying to link qtdemux0:video_0 and src:proxypad0
+0:00:27.624786000  7816 0000018075A1E8C0 INFO                GST_PADS gstpad.c:2596:gst_pad_link_full: linked qtdemux0:video_0 and src:proxypad0, successful
+0:00:27.623680000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2817:gst_element_continue_state:<media-pipeline> completed state change to PAUSED
+0:00:27.625872000  7816 0000018075A1E8C0 INFO               GST_EVENT gstevent.c:1687:gst_event_new_reconfigure: creating reconfigure event
+0:00:27.626960000  7816 000001807598DD40 INFO              GST_STATES gstelement.c:2720:_priv_gst_element_state_changed:<media-pipeline> notifying about state-changed READY to PAUSED (VOID_PENDING pending)
+0:00:27.628235000  7816 0000018075A1E8C0 INFO               GST_EVENT gstevent.c:999:gst_event_new_segment: creating segment event time segment start=0:00:00.066666666, offset=0:00:00.000000000, stop=0:00:04.066666666, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.066666666, duration 99:99:99.999999999
+0:00:27.629245000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:3588:start_preroll: SUCCESS state change for media 0000018075920910
+0:00:27.634147000  7816 0000018075A1E8C0 INFO                 default gstsegment.c:385:gst_segment_do_seek: segment updated: time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=876576:00:00.000000000, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:27.634417000  7816 0000018075A1E880 INFO               h264parse gsth264parse.c:2242:gst_h264_parse_update_src_caps:<h264parse0> pixel aspect ratio has been changed 1/1
+0:00:27.636582000  7816 0000018075A1E8C0 INFO               GST_EVENT gstevent.c:999:gst_event_new_segment: creating segment event time segment start=0:00:00.000000000, offset=0:00:00.000000000, stop=876576:00:00.000000000, rate=1.000000, applied_rate=1.000000, flags=0x00, time=0:00:00.000000000, base=0:00:00.000000000, position 0:00:00.000000000, duration 99:99:99.999999999
+0:00:27.637539000  7816 0000018075A1E880 INFO               h264parse gsth264parse.c:2273:gst_h264_parse_update_src_caps:<h264parse0> colorimetry has been changed from (NULL) to 2:4:5:4
+0:00:27.639676000  7816 0000018075A1E880 INFO               baseparse gstbaseparse.c:4105:gst_base_parse_set_latency:<h264parse0> min/max latency 0:00:00.033333333, 0:00:00.033333333
+0:00:27.640740000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1558:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:27.640857000  7816 0000018075A1E880 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event video/x-h264, stream-format=(string)avc, alignment=(string)au, level=(string)3, profile=(string)high, codec_data=(buffer)0164001effe1001d6764001eacd940a031fbc05a8300835280000003008000001e478b16cb01000568ebecb22c, width=(int)640, height=(int)380, framerate=(fraction)30/1, pixel-aspect-ratio=(fraction)1/1, interlace-mode=(string)progressive, colorimetry=(string)2:4:5:4, coded-picture-structure=(string)frame, chroma-format=(string)4:2:0, bit-depth-luma=(uint)8, bit-depth-chroma=(uint)8, parsed=(boolean)true
+0:00:27.641556000  7816 000001807598DD40 INFO                     bin gstbin.c:2768:gst_bin_do_latency_func:<media-pipeline> configured latency of 0:00:00.000000000
+0:00:27.642693000  7816 0000018075A1E880 INFO               GST_EVENT gstevent.c:918:gst_event_new_caps: creating caps event application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264, packetization-mode=(string)1, sprop-parameter-sets=(string)"Z2QAHqzZQKAx+8BagwCDUoAAAAMAgAAAHkeLFss\=\,aOvssiw\=", profile-level-id=(string)64001e, profile=(string)high, payload=(int)96, ssrc=(uint)1256984202, timestamp-offset=(uint)3095933669, seqnum-offset=(uint)15358, a-framerate=(string)30
+0:00:27.644215000  7816 0000018075A1E880 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.644947000  7816 0000018075A1E880 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.645761000  7816 0000018075A1E840 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.645772000  7816 0000018075A1E880 INFO               baseparse gstbaseparse.c:4898:gst_base_parse_set_upstream_tags:<h264parse0> upstream tags: taglist, video-codec=(string)"H.264\ /\ AVC", maximum-bitrate=(uint)2097152, bitrate=(uint)447130, encoder=(string)x264;
+0:00:27.649577000  7816 0000018075A1E840 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.650894000  7816 0000018075A1E880 INFO               baseparse gstbaseparse.c:4105:gst_base_parse_set_latency:<h264parse0> min/max latency 0:00:00.000000000, 0:00:00.000000000
+0:00:27.651733000  7816 0000018075A1E840 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.652718000  7816 000001807598DD40 INFO               GST_EVENT gstevent.c:1558:gst_event_new_latency: creating latency event 0:00:00.000000000
+0:00:27.652892000  7816 0000018075A1E880 INFO               videometa gstvideometa.c:1072:gst_video_time_code_meta_api_get_type: registering
+0:00:27.653797000  7816 0000018075A1E840 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.654795000  7816 000001807598DD40 INFO                     bin gstbin.c:2768:gst_bin_do_latency_func:<media-pipeline> configured latency of 0:00:00.000000000
+0:00:27.656677000  7816 0000018075A1E880 WARN       rtponviftimestamp gstrtponviftimestamp.c:434:gst_rtp_onvif_timestamp_sink_event: enqueueing serialized event
+0:00:27.657056000  7816 0000018075A1E840 INFO              rtspstream rtsp-stream.c:2520:on_new_sender_ssrc: 00000180758B8650: new sender source 0000018075AAB260
+0:00:27.658229000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:3392:default_handle_message: 0000018075920910: got message type 262144 (duration-changed)
+0:00:27.659413000  7816 0000018075A1E880 WARN       rtponviftimestamp gstrtponviftimestamp.c:434:gst_rtp_onvif_timestamp_sink_event: enqueueing serialized event
+0:00:27.660534000  7816 0000018075A1E840 INFO              rtspstream rtsp-stream.c:2354:dump_structure: structure: application/x-rtp-source-stats, ssrc=(uint)1256984202, internal=(boolean)true, validated=(boolean)true, received-bye=(boolean)false, is-csrc=(boolean)false, is-sender=(boolean)false, seqnum-base=(int)15358, clock-rate=(int)90000, octets-sent=(guint64)0, packets-sent=(guint64)0, octets-received=(guint64)0, packets-received=(guint64)0, bytes-received=(guint64)0, bitrate=(guint64)0, packets-lost=(int)0, jitter=(uint)0, sent-pli-count=(uint)0, recv-pli-count=(uint)0, sent-fir-count=(uint)0, recv-fir-count=(uint)0, sent-nack-count=(uint)0, recv-nack-count=(uint)0, recv-packet-rate=(uint)0, have-sr=(boolean)false, sr-ntptime=(guint64)0, sr-rtptime=(uint)0, sr-octet-count=(uint)0, sr-packet-count=(uint)0;
+0:00:27.666268000  7816 0000018075A1E880 WARN       rtponviftimestamp gstrtponviftimestamp.c:434:gst_rtp_onvif_timestamp_sink_event: enqueueing serialized event
+0:00:27.667351000  7816 0000018075A1E840 INFO                GST_PADS gstpad.c:4367:gst_pad_peer_query:<rtpbin0:send_rtp_src_0> pad has no peer
+0:00:27.669564000  7816 0000018075A1E840 INFO              rtspstream rtsp-stream.c:2337:caps_notify: stream 00000180758B8650 received caps 0000018075A7F230, application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264, packetization-mode=(string)1, sprop-parameter-sets=(string)"Z2QAHqzZQKAx+8BagwCDUoAAAAMAgAAAHkeLFss\=\,aOvssiw\=", profile-level-id=(string)64001e, profile=(string)high, payload=(int)96, ssrc=(uint)1256984202, timestamp-offset=(uint)3095933669, seqnum-offset=(uint)15358, a-framerate=(string)30
+0:00:27.668446000  7816 0000018075A1E880 WARN       rtponviftimestamp gstrtponviftimestamp.c:434:gst_rtp_onvif_timestamp_sink_event: enqueueing serialized event
+0:00:27.670636000  7816 0000018075A1E840 WARN              rtpsession gstrtpsession.c:2436:gst_rtp_session_chain_send_rtp_common:<rtpsession0> Can't determine running time for this packet without knowing configured latency
+0:00:27.672605000  7816 0000018075A1E840 WARN              rtpsession gstrtpsession.c:2515:gst_rtp_session_chain_send_rtp_common:<rtpsession0> Don't have a clock yet and can't determine NTP time for this packet
+0:00:27.673937000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:891:collect_media_stats: collect media stats
+0:00:27.674922000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:709:do_query_position:<GstRTSPStream@00000180758B8650> media position: 0:00:00.066666666
+0:00:27.675890000  7816 000001807598DD40 INFO               rtspmedia rtsp-media.c:927:collect_media_stats: stats: position 0:00:00.066666666, stop 876576:00:00.000000000
+0:00:27.677147000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:3950:gst_rtsp_media_prepare: object 0000018075920910 is prerolled
+0:00:27.682180000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:891:collect_media_stats: collect media stats
+0:00:27.683630000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:709:do_query_position:<GstRTSPStream@00000180758B8650> media position: 0:00:00.066666666
+0:00:27.685153000  7816 000001807598D980 INFO               rtspmedia rtsp-media.c:927:collect_media_stats: stats: position 0:00:00.066666666, stop 876576:00:00.000000000
+0:00:27.686797000  7816 000001807598D980 INFO                 default gstmikey.c:2358:gst_mikey_message_new_from_caps: No srtp key
+0:00:27.687797000  7816 000001807598D980 FIXME              rtspmedia rtsp-media.c:4624:gst_rtsp_media_suspend: suspend for dynamic pipelines needs fixing
+0:00:27.688955000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:3366:handle_describe_request: adding content-base: rtsp://127.0.0.1:8554/test/
+0:00:27.693268000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:4018:handle_request: client 00000180759C7180: received a request SETUP rtsp://127.0.0.1:8554/test/stream=0 1.0
+0:00:27.695487000  7816 000001807598D980 INFO         rtspmountpoints rtsp-mount-points.c:305:gst_rtsp_mount_points_match: found media factory 000001807563A150 for path /test/stream=0
+0:00:27.696556000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:1057:find_media: reusing cached media 0000018075920910 for path /test
+0:00:27.697731000  7816 000001807598D980 FIXME              rtspmedia rtsp-media.c:4624:gst_rtsp_media_suspend: suspend for dynamic pipelines needs fixing
+0:00:27.699092000  7816 000001807598D980 WARN               rtspmedia rtsp-media.c:4663:gst_rtsp_media_suspend: media 0000018075920910 was not prepared
+0:00:27.700577000  7816 000001807598D980 INFO             rtspsession rtsp-session.c:157:gst_rtsp_session_init: init session 00000180759CAF80
+0:00:27.701670000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:669:client_watch_session: watching session 00000180759CAF80
+0:00:27.702849000  7816 000001807598D980 INFO              rtspclient rtsp-client.c:2370:parse_transport: found valid transport RTP/AVP/TCP;unicast;interleaved=0-1
+0:00:27.704047000  7816 000001807598D980 INFO             rtspsession rtsp-session.c:281:gst_rtsp_session_manage_media: manage new media 0000018075920910 in session 0000018075A8B570
